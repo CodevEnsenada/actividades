@@ -1,0 +1,5 @@
+##USANDO CICLO WHILE
+print("imprimir los números del 1 al 100")
+numero=0
+while(numero<100):
+  print(str(numero) + "' ")

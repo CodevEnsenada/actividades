@@ -1,0 +1,8 @@
+##Obtener número par o impar.
+print("Determinar si un número es par o impar\n")
+valor = int(input("Escribe un número: "))
+mod = valor%2
+if mod == 0:
+  print("El número es par")
+else:
+  print("El número es impar")

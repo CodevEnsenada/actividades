@@ -1,0 +1,7 @@
+calificacion = int(input("Cuál es tu calificación?"))
+if calificacion <=4:
+    print("Reprobado")
+elif calificacion <=8:
+    print("Buen aprovechamiento, sigue esforzandote")
+if calificacion >=9:
+    print("Felicidades")

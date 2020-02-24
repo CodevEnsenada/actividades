@@ -1,0 +1,6 @@
+##promedio de 3 numeros
+num1 = int(input("Calificación Matemáticas "))
+num2 = int(input("Calificación Español "))
+num3 = int(input("Calificación Química "))
+promedio = (num1+num2+num3)/3
+print("\n El promedio es: " + str(promedio))
