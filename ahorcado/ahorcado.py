@@ -4,7 +4,7 @@ ganar = "Felicidades has ganado la palabra fue: \"{}\", tuvistes {} fallos"
 acertar = "Bien la letra: \"{}\" si se encontro"
 fallar = "Sigue intentandolo"
 intentos = 0
-palabras = ["zapato", "mocos", "otra","juanito", "ferrocarril", "parangacutirimicuaro", "otorrinolaringologo"]
+palabras = ["zapato", "mocos", "otra","juanito", "ferrocarril", "parangaracutirimicuaro", "otorrinolaringologo"]
 letrasAtinadas = []
 letraEvaluar = ""
 letraPropuesta = ""
@@ -13,7 +13,7 @@ letraPropuesta = ""
 rand = random.randint(1,len(palabras))-1
 letrasFaltantes = len(palabras[rand])
 print("Bienvenido este es un juego del ahorcado, usted debe ingresar las letras para intentar adivinar la palabra que se genera de forma aleatoria")
-print()
+print() #este es un espacio en blanco
 print("No te preocupes, tienes todos los intentos que gustes")
 print("Cuando estes listo presina ENTER para iniciar....")
 input()
