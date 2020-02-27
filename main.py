@@ -4,7 +4,7 @@ ganar = "Felicidades has ganado la palabra fue: \"{}\", tuvistes {} fallos"
 acertar = "Bien la letra: \"{}\" si se encontro"
 fallar = "Sigue intentandolo"
 intentos = 0
-palabras = ["zapato", "mocos", "otra","juanito", "ferrocarril", "parangaracutirimicuaro", "otorrinolaringologo"]
+palabras = ["zapato", "mocos", "otra","juanito", "ferrocarril", "parangaracutirimicuaro", "otorrinolaringologo", "langosta", "celular", "tijeras", "zancudo"]
 letrasAtinadas = []
 letraEvaluar = ""
 letraPropuesta = ""
@@ -18,7 +18,7 @@ print("No te preocupes, tienes todos los intentos que gustes")
 print("Cuando estes listo presina ENTER para iniciar....")
 input() 
 
-print("Iniciamos, la primera pista es que es una palabra de " + str(letrasFaltantes) + " letras. Representada por los asteriscos de acontinuación: ")
+print("Iniciamos, la primera pista es que es una palabra de " + str(letrasFaltantes) + " letras. Representada por los asteriscos a continuación: ")
 
 print (
  "   +---+ \n"
