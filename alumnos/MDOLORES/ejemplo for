@@ -1,0 +1,8 @@
+calificacionAlumno = [8,7,9,10]
+calificacionTotal = 0
+numeroParciales = len(calificacionAlumno)
+for calificacionParcial in calificacionAlumno: 
+    calificacionTotal = calificacionTotal + calificacionParcial
+  
+p = calificacionTotal/numeroParciales
+print("El promedio fue: " + str(p))

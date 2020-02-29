@@ -1,0 +1,9 @@
+repueva si su calificacion esta  por debajo de  4
+si su calificacion es 5 a 7 se le da una oportunidad para aumentar su calificacion 
+su calificacion es 8 o mayor aprueva por su excelente trabajo
+si su calificacion es 9 o mayor felicitarlo por su excelente trabajo.
+calificacion 
+if  (calificacion 4<= reprobado ):
+	print("Alumno paso la materia")
+else: 
+	print("Reprobado vas a tener que hacer extraordinario")
