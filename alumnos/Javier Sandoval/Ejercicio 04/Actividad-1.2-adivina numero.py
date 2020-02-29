@@ -1,6 +1,6 @@
 import random
 intentos = 1
-numero = random.randrange(1, 101)
+numero = random.randrange(1, 16)
 adivina = 0
 #print (numero)
  
