@@ -63,10 +63,12 @@ def displayBoard(AHORCADO, letraIncorrecta, letraCorrecta, palabra):
         print (letra, fin)
     print ("")
     espacio = '_' * len(palabra)
-    for i in range(len(palabra)): # Remplaza los espacios en blanco por la letra
+    for i in range(len(palabra)): 
+      # Remplaza los espacios en blanco por la letra
         if palabra[i] in letraCorrecta:
             espacio = espacio[:i] + palabra[i] + espacio[i+1:]
-    for letra in espacio: # Mostrará la palabra con espacios entre letras
+    for letra in espacio:
+       # Mostrará la palabra con espacios entre letras
         print (letra, fin)
     print ("")
 def elijeLetra(algunaLetra):
@@ -105,7 +107,7 @@ while True:
                 letrasEncontradas = False
                 break
         if letrasEncontradas:
-            print ('¡Muy bien! La palabra secreta es "' + palabra + '"! ¡Has ganado!')
+            print ('¡bien! La palabra  es "' + palabra)
             finJuego = True
     else:
         letraIncorrecta = letraIncorrecta + letra
