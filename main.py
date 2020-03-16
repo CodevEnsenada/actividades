@@ -1,19 +1,27 @@
 import random
-intentos = 1
-numero = random.randrange(1, 101)
-adivina = 0
-#print (numero)
- 
-print("Hola, este es un juego en donde tratas de adivinar un número entre 1 y 100")
-
-while (adivina != numero):
-  adivina = int(input("Dame un número: "))
-  if adivina == numero:
-    print ("Atinaste el número en " + str(intentos) + " intentos!")
-
-  elif adivina < numero:
-    print ("Tu número está por debajo")
-    intentos = intentos + 1
-  else:
-    print ("Tu número está por arriba")
-    intentos = intentos + 1
+import os
+numRand=0 #Valor del numero generado x el random
+numAdiv=0 #Valor que ingresa el usuario
+a=0
+numInt=0 #Numero de intentos
+resp="Y" #Variable que indica si desea volver a jugar
+while resp=="Y" or resp=="y":
+  print("\nADIVINA EL NUMERO")
+  numRand=random.randint(1,100)
+  while numAdiv!=numRand:
+    numAdiv=int(input("El numero que generaste es? : "))
+    numInt=numInt+1
+    if numAdiv>numRand:
+      print("Tu número está por arriba")
+    elif numAdiv<numRand:
+      print("Tu número está por debajo")
+  print("\nWOOOOO!! LO ADIVINASTE \n")
+  print("El numero correcto es el : " + str(numAdiv) + "\n")
+  print("Lo lograste en : " + str(numInt) + " intento(s)")
+  resp=(input("Jugar otra vez (Y/N) : "))
+  numRand=0
+  numAdiv=0
+  numInt=0
+  listaInt=[]
+  os.system ("clear")
+print("GAME OVER")
